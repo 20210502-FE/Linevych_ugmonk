@@ -219,6 +219,7 @@ img {
 
 .product {
     padding-bottom: 30px;
+    cursor: pointer;
 }
 
 .product__title {
@@ -312,25 +313,31 @@ img {
     max-width: 630px;
     margin:0 auto 92px;
     font-size: 30px;
+    font-weight: 500;
     line-height: 36px;
     color: #1A1A1A;
+    text-align: center;
 }
 
 .choice__content {
     display: flex;
     flex-wrap: nowrap;
     margin-bottom: 70px;
+    margin-left: -57px;
+    margin-right: -57px;
 }
 
 .choice__mens {
     flex-basis: 50%;
     max-width: 50%;
     margin-right: 115px;
+    padding: 0 57px;
 }
 
 .choice__womens {
     flex-basis: 50%;
     max-width: 50%;
+    padding: 0 57px;
 }
 
 .choice__objects {
@@ -427,6 +434,7 @@ img {
     line-height: 54px;
     max-width: 835px;
     padding-bottom: 20px;
+    text-align: center;
 }
 
 .our-story__content a {
@@ -454,6 +462,7 @@ img {
     align-items: center;
     flex-direction: column;
     color: #1A1A1A;
+    text-align: center;
 }
 
 .connection__title {
@@ -473,6 +482,7 @@ img {
 .connection__form {
     width: 410px;
     position: relative;
+    margin-left: -55px;
 }
 
 .connection__form-inner {
@@ -490,6 +500,7 @@ img {
     padding: 17px 18px;
     background-color: #fff;
     border: 1px solid #000;
+    cursor: pointer;
 }
 
 .footer {
@@ -501,16 +512,25 @@ img {
     display: flex;
     justify-content: space-between;
     color: #1A1A1A;
+    flex-basis: 50%
 }
 
 .footer__content-left-service,
 .footer__content-left-about {
-    width: 300px;
+    flex-basis: 50%;
 }
 
 .footer__content-left {
     display: flex;
     justify-content: space-between;
+}
+
+.footer__content-right {
+    flex-basis: 50%;
+}
+
+.footer__content-list {
+    width: 300px;
 }
 
 .footer__content-list li {
@@ -521,6 +541,7 @@ img {
 
 .footer__link {
     color: #000;
+    border-bottom: 1px solid transparent;
     transition: all .5s;
 }
 
@@ -529,7 +550,7 @@ img {
     border-bottom: 1px solid #863440;
 }
 
-.footer__content-right-content {
+.footer__content-right-coryrights {
     display: flex;
     justify-content: flex-end;
     margin-bottom: 35px;
