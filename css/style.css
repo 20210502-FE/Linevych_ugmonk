@@ -518,6 +518,7 @@ img {
 .footer__content-left-service,
 .footer__content-left-about {
     flex-basis: 50%;
+    max-width: 300px;
 }
 
 .footer__content-left {
@@ -550,7 +551,7 @@ img {
     border-bottom: 1px solid #863440;
 }
 
-.footer__content-right-coryrights {
+.footer__content-right-copyrights {
     display: flex;
     justify-content: flex-end;
     margin-bottom: 35px;
